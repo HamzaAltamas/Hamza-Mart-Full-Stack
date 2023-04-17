@@ -27,7 +27,7 @@ const About = () => {
           Hamza Mart is one of the world’s leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.
           </h4>
   
-      <Flex className=" md:flex gap-x-5 mt-10 md:mt-[70px] lg:mt-[100px]">
+      <Flex className=" flex flex-col md:flex-row gap-y-5 md:gap-x-5  mt-10 md:mt-[70px] lg:mt-[100px]">
             <div className="">
               <h5 className='font-semibold mb-2 text-[16px]'>Our Vision</h5>
               <p className='text-[12px] text-ashText'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

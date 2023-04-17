@@ -10,6 +10,7 @@ import RootLayout from "./components/Layout/RootLayout";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Shop from "./Pages/Shop";
+import Contact from "./Pages/Contact";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ let router = createBrowserRouter(
       <Route index element={<Home />}></Route>
       <Route path="/products" element={<Shop />}></Route>
       <Route path="/about" element={<About/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
   </Route>)
 );
 

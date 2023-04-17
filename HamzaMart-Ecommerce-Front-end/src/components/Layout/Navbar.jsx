@@ -54,7 +54,7 @@ const Navbar = () => {
                   <ListItem
                     className="relative duration-100 after:content-[''] after:absolute after:left-0 after:bg-orange  after:bottom-[-1px] after:w-[0] after:h-[2px]  hover:after:w-[100%] after:duration-200 my-2.5 lg:my-0 text-sm md:text-md lg:text-lg"
                     item="Contact"
-                    
+                    href="/contact"
                   />
                 </List>
               )}
