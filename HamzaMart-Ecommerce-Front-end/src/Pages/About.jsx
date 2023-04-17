@@ -5,7 +5,10 @@ import Container from '../components/Layout/Container'
 const About = () => {
   return (
     <>
-     <Container/>
+    <Container>
+
+     <BreadCrumbBanner/>
+    </Container>
     </>
   )
 }
