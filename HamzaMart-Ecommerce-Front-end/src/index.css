@@ -92,3 +92,9 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #ff99008c; 
 }
+
+
+/* registration mui tab indicator design */
+.MuiTabs-indicator{
+  background-color: #fff !important;
+}

@@ -11,15 +11,19 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Shop from "./Pages/Shop";
 import Contact from "./Pages/Contact";
+import Registration from "./Pages/Registration";
 
 let router = createBrowserRouter(
   createRoutesFromElements(
-  <Route path="/" element={<RootLayout />}>
+ <Route>
+   <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />}></Route>
       <Route path="/products" element={<Shop />}></Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/contact" element={<Contact/>}></Route>
-  </Route>)
+  </Route>
+  <Route path="/registration" element={<Registration/>}></Route>
+ </Route>)
 );
 
 const App = () => {
